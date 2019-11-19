@@ -50,6 +50,9 @@ function nextProfile() {
       </li>
     </ul>
   `
+  document.getElementById('imageDisplay').innerHTML = `
+  <img src="${currentProfile.image}" >
+  `
 }
 
 // Profile Iterator
